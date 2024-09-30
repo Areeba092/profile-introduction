@@ -1,0 +1,27 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color:lightpink;
+}
+
+.homeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.childContainer {
+  width: fit-content;
+  height: 200px;
+  margin: 40px;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.pinkColor {
+  color: deeppink;
+}
